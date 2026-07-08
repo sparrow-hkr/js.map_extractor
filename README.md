@@ -15,7 +15,13 @@ with open("main.js.map", "r", encoding="utf-8") as f:
 # js.map_extract sources output path
 out_dir = Path("js.map_extracted_path")
 ```
-
+## Run:
+```bash
+chmod +x python_script.sh
+```
+```bash
+./python_script.sh
+```
 ## Next Step: Verify your files
 Once that script finishes, run:
 
