@@ -33,11 +33,11 @@ ls -la
 
 ### Search for Hardcoded API Keys or Secrets
 ```bash
-grep -riE '(secret|api[-_]?key|auth_token|password|bearer)' .
+grep -riE '(secret|api[-_]?key|auth_token|password|bearer)'
 ```
 ### Map Out Hidden API Endpoints
 ```bash
-grep -riE '(/api/v[0-9]|http://|https://)' .
+grep -riE '(/api/v[0-9]|http://|https://)'
 ```
 ### Review Endpoint Structure by VS Code (Optional)
 ```bash
